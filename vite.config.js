@@ -13,4 +13,13 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
+  server: {
+    host: '0.0.0.0', // Permitir conexões de qualquer endereço IP
+    port: 5173
+  },
+  hmr: {
+    protocol: 'ws',
+    host: 'localhost', // Ou o IP do contêiner, se necessário
+    port: 5173
+  }
 })
