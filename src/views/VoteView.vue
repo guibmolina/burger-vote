@@ -46,7 +46,7 @@ onMounted(() => {
     </div>
 
     <VContainer class="mb-12">
-      <div class="grid grid-cols-2 gap-2 sm:grid-cols-4 items-center justify-center">
+      <div class="grid grid-cols-2 gap-3 sm:grid-cols-4 items-center">
         <CheckCardImage
           v-for="burger in burgers"
           :key="burger.id"

@@ -38,7 +38,7 @@ defineEmits(['update:modelValue'])
       </div>
 
       <div
-        class="bg-white rounded-md flex flex-col justify-center px-4 pt-6 pb-3 gap-4"
+        class="bg-white rounded-md flex flex-col justify-center px-4 pt-6 pb-3 gap-4 items-center"
         :class="modelValue === value ? ' border-4 border-[#818cf8] ' : ''"
       >
         <img class="rounded" :src="imageSrc" width="250" height="250" />
